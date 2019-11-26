@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+}
+main{
+  margin: auto;
+  width: 1000px;
+}
+footer{
+  background-image: url('../Bilder/navbackground.jpg');
+  height: 20px;
+  color: lightgray;
+}
