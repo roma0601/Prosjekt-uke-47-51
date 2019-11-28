@@ -1,0 +1,21 @@
+.classgrid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  border: white 2px solid;
+}
+.classgrid img{
+  width: 100%;
+}
+.classinfo{
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 4;
+}
+.classpic{
+  grid-column: 5 / span 4;
+  grid-row: 2 / span 4;
+}
+.raceinfo{
+  grid-column: 9 / span 4;
+  grid-row: 2 / span 4;
+}
