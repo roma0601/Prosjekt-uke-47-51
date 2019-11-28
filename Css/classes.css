@@ -19,3 +19,12 @@
   grid-column: 9 / span 4;
   grid-row: 2 / span 4;
 }
+.alliance{
+  background-color: blue;
+}
+.horde{
+  background-color: red;
+}
+.blur{
+  filter: blur(5px);
+}
