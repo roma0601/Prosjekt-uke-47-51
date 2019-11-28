@@ -56,3 +56,12 @@ transform: scale(1);
 .imgzoom img:hover{
   transform: scale(1.2);
 }
+h3{
+  text-align: center;
+  color: lightgray;
+  text-decoration: underline;
+}
+h4{
+  text-align: center;
+  color: lightgray;
+}
