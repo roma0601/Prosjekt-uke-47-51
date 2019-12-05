@@ -1,20 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+height: 100%;
+}
 body{
-  margin: 0;
   background-color: black;
 }
 main{
   margin: auto;
   width: 1000px;
+  padding-bottom: 100px;
+  min-height: 100%;
 }
 footer{
   background-image: url('../Bilder/navbackground.jpg');
-  height: 20px;
   color: lightgray;
+  position: relative;
+  clear: both;
 }
 p{
   color: white;
   text-align: justify;
   padding: 5px;
+}
+h1{
+  color: white;
+  text-align: center;
 }
 h2{
   color: white;
