@@ -20,15 +20,14 @@
   grid-column: 4 / span 2;
   grid-row: 1;
 }
-.placeholder{
-  border: 2px lightgray solid;
-  grid-column: 1 / span 2;
-  grid-row: 2;
-}
 .raids{
   border: 2px lightgray solid;
-  grid-column: 3 / span 3;
+  grid-column: 1 / span 5;
   grid-row: 2;
+  display: flex;
+}
+.raidsflex{
+  flex-direction: column;
 }
 #classiclogo{
     display: block;
