@@ -30,3 +30,7 @@
   grid-column: 3 / span 3;
   grid-row: 2;
 }
+#bfalogo{
+  display: block;
+  margin: auto;
+}

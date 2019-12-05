@@ -13,6 +13,8 @@ footer{
 }
 p{
   color: white;
+  text-align: justify;
+  padding: 5px;
 }
 h2{
   color: white;

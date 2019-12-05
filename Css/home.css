@@ -41,3 +41,8 @@ h2{
   font-family: "Arial black", Gadget, sans-serif;
   font-size: 25px;
 }
+img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
