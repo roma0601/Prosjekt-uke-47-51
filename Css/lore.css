@@ -94,3 +94,32 @@ grid-row: 1 / span 2;
   grid-row: 3 / span 2;
   grid-column: 3 / span 2;
 }
+.eventgrid{
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 25%);
+  margin: auto;
+  grid-gap: 10px;
+}
+.eventinfo{
+grid-column: 2 / span 3;
+grid-row: 1 / span 2;
+}
+.eventphoto{
+  grid-row: span 2;
+}
+.eventphoto img{
+  width: 100%;
+}
+.eventphoto2{
+  grid-row: 3 / span 2;
+  grid-column: 4;
+}
+.eventphoto2 img{
+  width: 100%;
+}
+.eventmoreinfo{
+  grid-row: 3 / span 2;
+  grid-column: 1 / span 3;
+}
