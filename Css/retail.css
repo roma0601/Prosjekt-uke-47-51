@@ -28,8 +28,12 @@
 }
 .raidsflex{
   flex-direction: column;
+  font-size: 14px;
 }
 #bfalogo{
   display: block;
   margin: auto;
+}
+.center{
+  text-align: center;
 }
