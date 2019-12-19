@@ -7,7 +7,7 @@
 }
 .raidflex{
   display: flex;
-  border: white solid 2px;
+  border: lightgray solid 2px;
 }
 .raidgrid img{
   width: 40%;
