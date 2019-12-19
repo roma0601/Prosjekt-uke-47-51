@@ -2,7 +2,7 @@
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(2, 50%);
+  grid-template-rows: repeat(2, 52%);
   padding-top: 15px;
   padding-bottom: 15px;
   margin: auto;
@@ -33,4 +33,37 @@
     display: block;
     margin: auto;
     width: 50%;
+}
+@media (max-width: 900px){
+  .classicgrid{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 45%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+  }
+  .info{
+    border: 2px lightgray solid;
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .class{
+    border: 2px lightgray solid;
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .raids{
+    border: 2px lightgray solid;
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+  }
+  .raids img{
+    display: none;
+  }
+  main{
+    padding-bottom: 400px;
+  }
 }
