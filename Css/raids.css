@@ -1,7 +1,7 @@
 .raidgrid{
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(4, 25%);
+  grid-template-rows: repeat(4, 27%);
   padding: 10px;
   grid-gap: 5px;
 }
@@ -16,4 +16,13 @@ h3{
   color: white;
   text-align: center;
   text-decoration: underline;
+}
+@media (max-width: 1057px){
+  .raidgrid img{
+    display: none;
+  }
+  .raidgrid{
+    grid-template-rows: repeat(4, 32%);
+  }
+
 }
